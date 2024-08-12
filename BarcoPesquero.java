@@ -9,7 +9,7 @@ public class BarcoPesquero extends Barco {
     public BarcoPesquero(String tipo) {
         super(tipo);
         this.pecesCapturados = 0;
-        this.tipo = TipoPesquero.valueOf(tipo);
+        this.tipo = tipo;
     }
 
     @Override
